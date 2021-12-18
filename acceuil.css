@@ -1,0 +1,185 @@
+.wrapper{
+	 background: url(images/colofont.jpg) no-repeat fixed 50% 50%;
+	 background-size: cover;
+	 height: 799px;
+	
+ 	}
+/******header*******/
+.head{
+	
+  	position: fixed ;
+	background: url(images/logohh.png) no-repeat center;
+	width: 100%;
+	background-size:contain;
+	background-color:rgb(12, 14, 104) ;
+	border-bottom: 2px dashed rgb(255, 211, 12);
+	
+}
+
+.head ul li {
+  display: inline-block;
+  list-style: none;
+  line-height: 9px;
+  margin: auto;
+  }
+
+.head ul{
+	float: right;
+}
+.head ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  padding: 7px 50px;
+  transition: 0.4s;
+}
+.head h2 #hot,.head ul li a{
+	text-decoration: none;
+	color: rgb(255, 211, 12);
+ 
+}
+.head ul li a:hover{
+	transform: scale(1.5);
+	transition: 0.1s;
+	height: fit-content;
+	background: rgb(255, 211, 12);
+	border-radius: 15px;
+	color: rgb(12, 14, 104);
+  }
+   
+
+.head h2 #hot{
+	font-family: Lucida Calligraphy;
+	text-decoration: none;
+	font-size: 2em;
+	float: left;
+	}
+
+		
+/*************footer***********/
+	footer{
+		background-color: rgb(12, 14, 104);
+		color: #fdfdfd;
+		padding: 10px 0 10px 0;
+		text-align: center;
+		width: 100%;
+	  
+	}
+	
+	
+	
+	
+	#copyrightIcons{
+		display: flex;
+		margin-bottom: 5px;
+		padding: 0 5%;
+		
+	}
+	
+	#copyright{
+		width: 50%;
+		text-align: left;
+		color:snow;
+		float: left;
+	}
+	
+	#icons{
+		width: 200%;
+		float: right;
+		text-align: right;
+	}
+	
+	#icons a{
+		display: inline-block;
+		padding: 0 15px;
+		font-size: 1.3em;
+		
+		color: #FFFAE1;
+	}
+	
+	#icons a:hover{
+		transform: scale(1.5);
+		transition: 0.1s;
+		color: rgb(255, 211, 12);
+	}
+  
+/*****milieu******/
+#milieu {
+	height: 1400px;
+	
+	background-color: #f1f2f6;
+	padding: 4px;
+	border-radius: 10px;
+	background-image: url(images/beachfade2.jpg);
+	background-size: cover;
+  }
+  
+  #milieu #term h1{
+	text-align: center;
+	font-family:Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	padding-top: 10px;
+	font-size: 60px;
+}
+
+  #danse{
+	  background: url(images/danse.jpg);
+	  background-size: cover;
+	  
+  }
+  #delice{
+	  background: url(images/delice1.jpg);
+	  background-size: cover;
+	  
+  }
+  #atelier{
+	  background: url(images/atelier.jpg);
+	  background-size: cover;
+	  
+  }
+  #chute{
+	  background: url(images/chute.jpeg);
+	  background-size: cover;
+	  
+  }
+  
+  #milieu li{
+	  margin: 65px 100px 0 100px;
+	  height: 226px;
+	  width: 55%;
+	  max-width: 550px;
+	  float: left;
+	  list-style: none;
+	  box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+  }
+  
+  #milieu p{
+	  height: 45px;
+	  width: 235px;
+	  background-color: gold;
+	  float: right;
+	  color: blue;
+	  font-size: 20px;
+	  font-weight: bold;
+	  border-radius: 25px;
+	  margin: 50px -180px 0 0;
+	  text-align: center;
+	  padding-top: 15px;
+	  box-shadow: 4px 4px 0 1px rgba(255, 0, 0, 0.349) ;
+  }
+  
+  #milieu #delice, #milieu #chute{
+	  float:right;
+
+  }
+
+  #milieu #danse , #milieu #delice , #milieu #atelier , #milieu #chute{
+	padding: 4px;
+
+  }
+  
+  #delice p, #chute p{
+	  float: left;
+	  background-color: blue;
+	  margin-left: -180px;
+	  color: gold;
+	  box-shadow: -4px 4px 0 1px rgba(255, 0, 0, 0.349) ;
+  }
