@@ -1,0 +1,173 @@
+body{
+	
+	background: url(images/beachsemi.jpg) no-repeat fixed;
+	Background-size: cover;
+	
+}
+		
+
+/******header*******/
+.head{
+	
+  position: fixed;
+  
+  background: url(images/logohh.png) no-repeat center;
+  width: 100%;
+  background-size:contain;
+  background-color:rgb(12, 14, 104) ;
+  border-bottom: 2px dashed rgb(255, 211, 12);
+  
+}
+
+.head ul li {
+display: inline-block;
+list-style: none;
+line-height: 9px;
+
+margin: auto;
+}
+
+.head ul{
+  float: right;
+}
+
+.head ul li a{
+text-decoration: none;
+font-size: 20px;
+padding: 7px 50px;
+transition: 0.4s;
+}
+.head h2 #hot,.head ul li a{
+  text-decoration: none;
+  color: rgb(255, 211, 12);
+
+}
+.head ul li a:hover{
+  transform: scale(1.5);
+  transition: 0.1s;
+  height: fit-content;
+  background: rgb(255, 211, 12);
+  border-radius: 15px;
+  color: rgb(12, 14, 104);
+}
+ 
+
+.head h2 #hot{
+  font-family: Lucida Calligraphy;
+  text-decoration: none;
+  font-size: 2em;
+  float: left;
+  }
+
+	  
+/*************footer***********/
+  footer{
+	  background-color: rgb(12, 14, 104);
+	  color: #fdfdfd;
+	  padding: 10px 0 10px 0;
+	  text-align: center;
+	  width: 100%;
+	  
+  }
+  
+  
+  
+  
+  #copyrightIcons{
+	  display: flex;
+	  margin-bottom: 5px;
+	  padding: 0 5%;
+	  
+  }
+  
+  #copyright{
+	  width: 50%;
+	  text-align: left;
+	  color:snow;
+	  float: left;
+  }
+  
+  #icons{
+	  width: 200%;
+	  float: right;
+	  text-align: right;
+  }
+  
+  #icons a{
+	  display: inline-block;
+	  padding: 0 15px;
+	  font-size: 1.3em;
+	  
+	  color: #FFFAE1;
+  }
+  
+  #icons a:hover{
+	  transform: scale(1.5);
+	  transition: 0.1s;
+	  color: rgb(255, 211, 12);
+  }
+
+
+/******body*********/
+.form{
+	width: 30%;
+	height: 540px;
+	background: #00008b;
+	margin: auto;
+	
+	
+	border-radius: 15px;
+	
+	opacity:0.9;
+	
+}
+
+.entete {
+	
+	background: gold;
+	height: 35px;
+	border-radius: 15px 15px 0 0;
+	font-size: 14px;
+	text-align: center;
+
+}
+
+
+.insert {
+	padding-left: 7px;
+}
+
+.insert p {
+	font-size: 20px;
+	color:gold;
+}
+
+
+.insert .insertion {
+	
+	width: 90%;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid black;
+	background: #00008b;
+	color: #fff;
+	font-size: 17px;
+	
+}
+
+.button{
+    background: gold;
+	height: 35px;
+	margin: auto;
+	border-radius: 0 0 15px 15px ;
+	font-size: 24px;
+	text-align: center;	
+}
+
+ .button:hover{
+    background-color: whitesmoke;
+	color: #00008b;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
