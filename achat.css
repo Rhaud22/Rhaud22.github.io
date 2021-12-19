@@ -21,16 +21,17 @@ display: inline-block;
 list-style: none;
 line-height: 9px;
 
-margin: auto;
+margin: -2px;
 }
 
 .head ul{
   float: right;
+  padding-right: 45px;
 }
 .head ul li a{
 text-decoration: none;
 font-size: 20px;
-padding: 7px 50px;
+padding: 7px 13px;
 transition: 0.4s;
 }
 .head h2 #hot,.head ul li a{
