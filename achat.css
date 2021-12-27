@@ -169,12 +169,12 @@ transition: 0.4s;
 
 }
 
-
+/* pas encore gerer
 .pubn img:hover{
 	border-radius: 20px;
 	transform: scale(1.05);
 	transition: 0.4s ease-in-out;
-
+*/
 	}
 .pubn .image {
 	width: 100%;
